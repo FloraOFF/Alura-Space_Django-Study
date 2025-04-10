@@ -59,7 +59,7 @@ def cadastro(request):
                 password = senha
             )
             usuario.save()
-            messages.sucess(request, "Cadastro efetuado com sucesso!")
+            messages.success(request, "Cadastro efetuado com sucesso!")
             return redirect('login')
 
 
