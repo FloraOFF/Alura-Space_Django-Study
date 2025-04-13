@@ -120,6 +120,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
+# Aqui era para ter as configurações e as secrets_keys da AWS, mas por enquanto não vou realizar essa parte do estudo da Alura
+
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
